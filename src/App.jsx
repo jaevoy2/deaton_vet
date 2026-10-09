@@ -204,7 +204,7 @@ export default function App() {
           <div className="contact">
             <Reveal className="panel" variant="left">
               <h2>Questions?</h2>
-              <p className="small">Email us for general requests or medical records, or call during office hours.</p>
+              <p className="small">Email <a href="mailto:office@deatonvet.com">office@deatonvet.com</a> for general requests or medical records, or call during office hours.</p>
               {sent ? <p className="thanks">Thank you! We'll be in touch.</p> : (
                 <form onSubmit={(e) => { e.preventDefault(); setSent(true) }}>
                   <input required placeholder="Your name" />
@@ -218,7 +218,7 @@ export default function App() {
               <h3>Visit us</h3>
               <p>Deaton Veterinary Services, LLC<br />5015 Alabama Highway 9 North<br />Cedar Bluff, AL 35959</p>
               <p className="small">Mailing: P.O. Box 310, Centre, AL 35960</p>
-              <p>Office: <a href="tel:2567793291">256-779-3291</a><br />Fax: 706-203-5290</p>
+              <p>Office: <a href="tel:2567793291">256-779-3291</a><br />Fax: 706-203-5290<br />Email: <a href="mailto:office@deatonvet.com">office@deatonvet.com</a></p>
               <h3>Hours (by appointment only)</h3>
               {hours.map(([d, t]) => <div className="row light" key={d}><span>{d}</span><span>{t}</span></div>)}
               <p className="small">Hours are subject to change. Please check with us, since many clients drive a long way. Annual vacation closure: last week of October.</p>

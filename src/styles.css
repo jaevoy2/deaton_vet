@@ -131,3 +131,4 @@ body{overflow-x:hidden}
 @media(max-width:1100px){.pet-orange{display:none}.pet-puppy{width:110px}.pet-beagle{width:90px}.pet-wallcat{width:100px}.peek-bunny{width:80px;top:-70px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.edge-left,.edge-right{transform:none}}
 .footer .privacy{font-size:12px;opacity:.8;max-width:640px;margin:8px auto 0}
+.panel .small a{color:var(--blue);font-weight:700}
